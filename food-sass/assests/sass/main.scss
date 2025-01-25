@@ -1,0 +1,14 @@
+// shared
+@import './shared/normalise';
+@import './shared/variables';
+@import'./shared/mixins';
+
+
+
+
+//blocks
+@import './blocks/header.scss';
+@import './blocks/search.scss';
+@import'./blocks/select.scss';
+@import'./blocks/btn-select.scss';
+@import './blocks/menu.scss';

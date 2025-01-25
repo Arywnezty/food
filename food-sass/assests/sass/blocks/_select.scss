@@ -1,0 +1,17 @@
+.select-link{
+    display: flex;
+gap: $spc-4;
+border: none;
+box-shadow: $spc-0 $spc-1 $spc-2 rgb(156, 151, 151);
+padding-top: $spc-3;
+padding-right: $spc-3;
+padding-bottom: $spc-3;
+border-radius: $spc-2;
+
+.select-link__select-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-primary-300;
+}
+}

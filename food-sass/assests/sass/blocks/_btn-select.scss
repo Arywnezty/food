@@ -1,0 +1,13 @@
+.btn-select-food{
+    margin: $spc-2 $spc-0;
+ }
+ .btn-select-food button{
+ padding: $spc-2 $spc-4;
+ background-color: #ffffff;
+ border: .5px solid #000000;
+ border-radius: $spc-1;
+ }
+ .btn-select-food button:nth-child(1){
+     background-color:#2d2da1;
+     color: #ffffff;
+ }

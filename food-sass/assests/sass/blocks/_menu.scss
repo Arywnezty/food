@@ -1,0 +1,32 @@
+.menu{
+    grid-template-columns: repeat(1,1fr);
+    display: grid;
+    padding: $spc-2 $spc-4;
+    color: #000000;
+    border: none;
+    box-shadow: $spc-0 $spc-1 $spc-2 rgb(156, 151, 151);
+    border-radius: $spc-2;
+    .menu__select-menu__select-menubar{
+        display: flex;
+        gap: $spc-4;
+        padding-top: $spc-4;
+        align-items: center;
+        .menu__select-menu__select-menubar__name-food p{
+            padding-top: $spc-4;
+        }
+    }
+   .menu__select-menu__buy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: $spc-8;
+    align-items: center;
+
+    .menu__select-menu__buy__btn-menu button{
+        background-color: #ffffff;
+        color: #8f9df7;
+        padding: $spc-2 $spc-8;
+        border: .5px solid #8f9df7;
+        border-radius: $spc-2;
+    }
+   }
+}

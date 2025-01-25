@@ -1,0 +1,17 @@
+.header{
+    // @include size;
+    display: flex;
+    justify-content: space-between;   
+text-align: center;
+padding: $spc-4 $spc-0;
+box-shadow: 0 4px 8px rgb(156, 151, 151);
+border-radius: $spc-0 $spc-0 $spc-4 $spc-4;
+
+.header__images-center{
+        width: $spc-100;
+        margin: $spc-0 auto;
+}
+.header__icon-left{
+    padding-left: $spc-4;
+}
+}
