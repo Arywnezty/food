@@ -1,0 +1,26 @@
+.container{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 5rem;
+    width: 100%;
+}
+.loader{
+    width: 300px;
+    height: 300px;
+    animation-name: loader-animation;
+    animation-duration: 5s;
+animation-timing-function: inherit;
+transform-origin: center;
+animation-timing-function: linear;
+}
+@keyframes loader-animation {
+    from{
+transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
