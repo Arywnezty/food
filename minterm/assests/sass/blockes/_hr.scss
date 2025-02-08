@@ -1,0 +1,14 @@
+.hr{
+    color: $color-six-300;
+    margin-top: $spc-10;
+    overflow: hidden;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    @media(max-width:780px){
+        margin-bottom: auto;
+        border: 1px solid #000000;
+        margin-left: auto;
+        margin-right: auto;
+      }
+}

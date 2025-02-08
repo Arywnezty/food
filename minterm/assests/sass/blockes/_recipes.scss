@@ -1,0 +1,85 @@
+.recipes{
+   @include size;
+    margin-top: $spc-111;
+    overflow: hidden;
+    & h1{
+        text-align: center;
+    color: $color-primary-300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    & p{
+        text-align: center;
+        color: $color-eight-300;
+        margin-top: $spc-6;
+    }
+    &__recipes-food{
+        @include size;
+        margin-top: $spc-112;
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        margin-top: $spc-112;
+        gap: $spc-10;
+        margin-bottom: $spc-7;
+        @media (max-width:780px){
+              grid-template-columns: 1fr;
+            padding: 0 20px;
+          }  
+        &__food1{
+            background:linear-gradient(to bottom , $color-18-300,$color-19-300);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: $spc-113;
+            border-radius: $spc-8;
+            @media(max-width:780px){
+              width: 100%;
+              }
+           & img{
+            border-radius: $spc-8;
+           }
+           &__like{
+            position: relative;
+            @media(max-width:780px){
+              max-width: 450px;
+              }
+           }
+           &__like1{
+            position: absolute;
+            margin-top: $spc-4;
+            margin-left: $spc-114;
+            @media(max-width:1200px){
+                margin-left: 20%;
+              }
+              @media(max-width:780px){    
+                  margin-left: 50%;
+              }
+           }
+           &__food1-span{
+            padding-left: $spc-6;
+            font-size: $spc-6;
+            margin-top: $spc-6;
+            margin-right: $spc-5;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           }
+           &__date-food{
+            display: flex;
+            gap: $spc-6;
+           margin-top: $spc-6;
+           &__date-food-left{
+            display: flex;
+            gap: $spc-1;
+            align-items: center;
+            color: $color-eight-300;
+            padding-right:$spc-6 ;
+           }
+           &__date-food-right{
+            display: flex;
+            gap: $spc-1;
+            align-items: center;
+            color: $color-eight-300;
+            padding-right:$spc-6 ;
+           }
+           }
+        }     
+    }
+}

@@ -1,0 +1,119 @@
+.categories-card{
+ @include size;
+    margin-top: $spc-102;
+    overflow:hidden;
+    &__categories{
+        display: flex;
+        justify-content: space-between;
+    
+    & h1{
+        font-size: $spc-11;
+        font-weight: normal;
+        @media(max-width:780px){
+           margin-left: auto;
+           margin-right: auto;
+         }
+    }
+    & p{
+        border: none;
+        background: $color-nine-300;
+        color: $color-primary-300;
+        border-radius: $spc-4;
+        padding: $spc-5 $spc-7;
+        @media(max-width:780px){
+             display: none;
+          }
+    }
+    }
+    &__categories-vegetables{
+        font-size: $spc-5;
+        font-weight: normal;
+        display: flex;
+        justify-content: space-between;
+    padding-top: $spc-100;
+    padding-bottom: $spc-7;
+    @media(max-width:780px){  
+          overflow: auto;
+          padding-left: 2rem;
+          padding-right: 2rem;
+      }
+    &__border{
+        background: linear-gradient(to bottom ,$color-ten-300,$color-eleven-300);
+        height: $spc-108;
+        width: $spc-109;
+        text-align: center;
+        border-radius: $spc-7;
+        & img{
+            margin-top: -$spc-110;
+        }
+        &__border-span{
+            padding-top: $spc-10;
+        }
+    }
+    &__border1{
+        background: linear-gradient(to bottom ,$color-12-300,$color-13-300);
+        height: $spc-108;
+        width: $spc-109;
+        text-align: center;
+        border-radius: $spc-7;
+        & img{
+            margin-top: -$spc-110;
+        }
+        &__border-span{
+            padding-top: $spc-10;
+        }
+    }
+    &__border2{
+        background: linear-gradient(to bottom ,$color-14-300,$color-15-300);
+        height: $spc-108;
+        width:  $spc-109;
+        text-align: center;
+        border-radius: $spc-7;
+        & img{
+            margin-top: -$spc-110;
+        }
+        &__border-span{
+            padding-top: $spc-10;
+        }
+    }
+    &__border3{
+        background: linear-gradient(to bottom ,$color-16-300,$color-17-300);
+    height: $spc-108;
+    width: $spc-109;
+    text-align: center;
+    border-radius: $spc-7;
+    & img{
+        margin-top: -$spc-110;
+    }
+    &__border-span{
+        padding-top: $spc-10;
+    }
+}
+&__border4 {
+    background: linear-gradient(to bottom ,$color-six-300,$color-seven-300);
+    height: $spc-108;
+    width: $spc-109;
+    text-align: center;
+    border-radius: $spc-7;
+    & img{
+        margin-top: -$spc-110;
+    }
+    &__border-span{
+        padding-top: $spc-10;
+    }
+    }
+    &__border5 {
+        background: linear-gradient(to bottom ,$color-six-300,$color-seven-300);
+        height: $spc-108;
+        width: $spc-109;
+        text-align: center;
+        border-radius: $spc-7;
+        & img{
+            margin-top: -$spc-110;
+        }
+        &__border-span{
+            padding-top: $spc-10;
+        }
+        }
+}
+}
